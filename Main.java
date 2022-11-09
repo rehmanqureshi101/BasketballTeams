@@ -29,6 +29,15 @@ public class Main
         basketballTeam.initials = initialByUser;
 
 
+        Scanner staffName = new Scanner(System.in);
+        System.out.println("Enter Staff member's name");
+
+        String staffNameByUser = staffName.nextLine();
+        System.out.println("staff member name is: " + staffNameByUser);
+        Staff staff = new Staff();
+        staff.name= staffNameByUser;
+
+
 
         // Output user input*/
     }
