@@ -4,12 +4,12 @@ public class Main
 {
     public static void main(String[] args) {
 
-        Scanner x = new Scanner(System.in);
-        System.out.println("Enter Your first and last name to open your bank account");
-        String actualName = x.nextLine();
+//        Scanner x = new Scanner(System.in);
+//        System.out.println("Enter Your first and last name to open your bank account");
+//        String actualName = x.nextLine();
 
 
-        System.out.println("Account opened by:" + " " + actualName);
+//        System.out.println("Account opened by:" + " " + actualName);
 
         Scanner teamNameEntry = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter Basketball Team name");
@@ -36,6 +36,16 @@ public class Main
         System.out.println("staff member name is: " + staffNameByUser);
         Staff staff = new Staff();
         staff.name= staffNameByUser;
+
+        Scanner playerName = new Scanner(System.in);
+        System.out.println("Enter Player members name");
+
+        String playerNameByUser= playerName.nextLine();
+        System.out.println("player name is:" + playerNameByUser);
+        Player player = new Player();
+        player.name= playerNameByUser;
+
+
 
 
 
